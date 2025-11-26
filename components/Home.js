@@ -51,7 +51,7 @@ function Home() {
     const fetchMovies = async () => {
       try {
         // Backend API URL - déployé sur Vercel
-        const apiUrl = "https://backend-b8kzcy3lk-yukis-projects-912d4447.vercel.app";
+        const apiUrl = "https://mymoviz-backend.vercel.app";
         const response = await fetch(`${apiUrl}/movies`);
         if (!response.ok) {
           throw new Error("Erreur réseau or whatever !!");
